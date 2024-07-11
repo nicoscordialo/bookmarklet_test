@@ -1,7 +1,10 @@
 const UTENSEAL_BUTTON_CONTENT = '🦭';
 const UTENSEAL_BUTTON_CLASS = 'refresh-button';
 const UTENSEAL_BUTTON_ROTATE_CLASS = 'rotate-once';
-const CONT
+const CONTENT_IDS = {
+  teaser: ["article-content-head.subtitle", "teaser-text.teaserText"],
+  title: ["article-content-head.title", "teaser-title.teaserTitle"],
+};
 
 const suggest = (contentType) => {};
 
